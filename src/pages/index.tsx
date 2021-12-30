@@ -1,10 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
+import { Header } from "../components/Header";
 
 export default function Home() {
-  return (
-      <>
-        <Head><title>Inicio | ig.news</title></Head>
-        <h1>Hello Word</h1>
-      </>
-  )
+  return <Header />;
 }
